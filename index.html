@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Spoken Word Poetry Selection</title>
+    <link rel="stylesheet" href="poems.css">
+  </head>
+  <body>
+    <h1>Select Your Favourite Spoken Word Poem</h1>
+    <p>
+      <strong>Please watch the following YouTube videos and fill out the form below, selecting your favourite spoken word poem with an explanation as to why you chose it.</strong>
+      </p>
+      <br />
+      <h3> OCD, <em>Neil Hilborn</em></h3>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/vnKZ4pdSU-s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <p>
+        A starkly honest depiction of a relationship and its breakdown from the perspective of someone who suffers from Obsessive-Compulsive Disorder. Through rapidly delivered lines and stuttering repetition, Hilborn is able to convey the cyclic and obsessive thoughts which are characteristic of the disorder. Romantic attachment becomes manic infatuation and the anguish evoked by heartbreak. A written version of OCD can be found in his anthology, <a href=https://www.amazon.co.uk/Our-Numbered-Days-Neil-Hilborn/dp/0989641562 target="_blank">Our Numbered Days</a>.
+        </p>
+      <hr />
+      <h3> Manic Pixie Dream Girl, <em>Olivia Gatwood</em></h3>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/KJjJfE_QNMY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <p>
+        'Manic Pixie Dream Girl' was a term coined by the film critic Nathan Rabin in 2005 and describes any female character who “exists solely... to teach broodingly soulful young men to embrace life and its infinite mysteries and adventures.” In her poem, Gatwood calls attention to the one-sided nature of relationships between the male protagonist and this female archetype, revealing these types of characters to be a product of male fantasy and ill-aligned with realistic depictions of women. A written version of this poem can be found in Gatwood’s anthology, <a href="https://www.amazon.co.uk/American-Best-Friend-Olivia-Gatwood/dp/1943735107" target="_blank">New American Best Friend</a>.
+        </p>
+      <hr />
+      <h3> 14 Lines from Love Letters or Suicide Notes, <em>Doc Luben</em></h3>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/Iy4cEW15SdE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <p>
+        Luben's nervous delivery of the poem suits its quirky style, and the way in which in blends together comedy and tragedy. From the outset, the poem presents itself as dark humour, portraying ‘madly in love’ as indistinguishable from suicidal thoughts. Then, as Luben moves further down his list, his tone becomes more serious as the lines start to reflect on what it means to be human and the despair that usually comes with it. This change is tone is powerful and expected, eliciting an emotional reaction from the audience.
+        </p>
+      <hr />
+      <h3> The Period Poem, <em>Dominique Christina</em> </h3>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/4vu2BsePvoI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <p>
+        Christina's delivery is unapologetic, fierce and at points humourous in its depiction of menstruation. The poem is dedicated to the poet’s young daughter, and seeks to override society’s fear and shame associated with it. A written version can be found in her anthology, <a href="https://www.amazon.co.uk/They-Are-All-Dominque-Christina/dp/0692460004/" target="_blank">They Are All Me</a>.
+        </p>
+      <hr />
+      <h3> A Letter to the Girl I Used to Be, <em>Ethan Smith</em></h3>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/Lkn06Y8prDU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <p>
+        Smith blends Spoken Word Poetry with the form of a letter to reflect on his experience of transitioning. By addressing his past self as 'Emily', he makes a distinction between the person he is today and the girl he was born as. While he stands by his decision to transition, stating that it "allowed her to become the man I am today", he expresses regret about no longer being able to bear children and also makes it clear that he feels no animosity towards 'Emily'. Therefore, this poem presents a nuanced and detailed depiction of being transgender.
+        </p>
+      <br />
+      <br />
+      <div>
+        <h2>My Chosen Poem Is...</h2>
+        <form action="mailto:201901741@itpt.co.uk" enctype="text/plain" method="post">
+          <label>First Name:</label>
+          <input type="text" name="First Name" required>
+          <br /> <br />
+          <label>Second Name:</label>
+          <input type="text" name="Second Name">
+          <br /> <br />
+          <label>Email Address:</label>
+          <input type="email" name="Email" required>
+          <br /> <br />
+          <label>Select Poem:</label>
+          <input list="poems" required />
+            <datalist id="poems">
+              <option value="Hilborn">OCD, Neil Hilborn</option>
+              <option value="Gatwood">Manic Pixie Dream Girl, Olivia Gatwood</option>
+              <option value="Luben">14 Lines from Love Letters or Suicide Notes, Doc Luben</option>
+              <option value="Christina">The Period Poem, Dominique Christina</option>
+              <option value="Smith">A Letter to the Girl I Used to Be, Ethan Smith</option>
+            </datalist>
+          <br /> <br />
+          <label>Please explain the reasoning for your choice in the text box below:</label>
+          <br /> <br />
+          <textarea name="name" rows="8" cols="80" placeholder="type response here" required></textarea>
+          <br /> <br />
+          <label>After listening to this poem, how likely are you to listen / read the poet's other works?</label>
+          <br /> <br />
+          <input type="radio" name="more_poems" value="very likely"> Very Likely<br>
+          <input type="radio" name="more_poems" value="somewhat likely"> Somewhat Likely<br>
+          <input type="radio" name="more_poems" value="neutral"> Neither Likely or Unlikely<br>
+          <input type="radio" name="more_poems" value="somewhat unlikely"> Somewhat Unlikely<br>
+          <input type="radio" name="more_poems" value="very unlikely"> Very Unlikely<br>
+          <br />
+          <button type="submit">Submit Form</button>
+          </form>
+          </div>
+  </body>
+</html>

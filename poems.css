@@ -1,0 +1,32 @@
+body {
+  background-color: #1A1A1D;
+  color: white;
+  font-family: sans-serif;
+}
+p {
+  width: 50%;
+}
+h1 {
+  color: #950740;
+}
+h3 {
+  color: #C3073F;
+}
+h2 {
+  text-align: center;
+}
+a:link {
+  color: #C3073F;
+}
+a:visited {
+  color: #4E4E50;
+  text-decoration: none;
+}
+a:hover {
+  color: #950740;
+}
+div {
+  background-color: #6F2232;
+  width: 60%;
+  text-align: center;
+}
